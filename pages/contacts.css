@@ -1,0 +1,34 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.cards-section{
+    width: 100%;
+    height: 775px;
+    background-color: rgb(39, 39, 39);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+}
+.card{
+    width: 222px;
+    height: 318px;
+    background-color: rgb(236, 236, 236);
+    color: rgb(35, 35, 35);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.image-Petyr{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+}

@@ -1,233 +1,141 @@
 @import url('https://fonts.googleapis.com/css2?family=Saira+Condensed&display=swap');
-
-a{
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     text-decoration: inherit;
     color: inherit;
+    
 }
-.body {
-  position: absolute;
-  display: flex;
-  width: 100%;
-  height: 100%;
-  margin: 0%;
-  padding: 0%;
-}
-
-/* Заглавие */
-.heading {
-  position: absolute;
-  flex-direction: row;
-  display: flex;
-  width: 648px;
-  height: 102px;
-  left: 1000px;
-  top: 50px;
-  font-family: 'Saira Condensed';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 40px;
-  text-align: center;
-  text-transform: uppercase;
-  color: #FFFFFF;
-
-}
-.navbar {
-  display: flex;
-  flex-direction: row;
-  align-items:center;
-  padding: 0px;
-  gap: 24px;
-  position: absolute;
-  width: 826px;
-  height: 56px;
-  left: 501px;
-  top: 284px;
-}
-
-.navbar > a {
-  color:goldenrod;
-  font-size: 35px;
-}
-
-.navbar a:hover {
-  color: white;
-  transition: 0.3s;
-  border-bottom: 2px solid gray;
-}
-/* Горна секция */
-.rect1{
-    width: 1902px;
-    height: 450px;
-  }
-  
-/* Подразделители */
-.rect2 {
-  background-color: #000000CF;
-  margin-bottom: 0;
-  width: 100%;
-  height: 30vh;
-}
-
-.rect3 {
-  background-color: #000000CF;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  top: 45%;
-  width: 5%;
-  height: 50vh;
-}
-
-.logo {
-  position: absolute;
-  width: 309px;
-  height: 274px;
-  left: 85px;
-  top: 37px;
-}
-
-.image1 {
-  position: absolute;
-  width: 367px;
-  height: 384px;
-  left: 250px;
-  top: 750px;
-  background: url(robot.jpg);
-}
-
-.image2 {
-  position: absolute;
-  width: 80px;
-  height: 69.14px;
-  left: 1600px;
-  top: 1005px;
-  background: url(wwww.png);
-}
-
-.image3 {
-  position: absolute;
-  width: 80px;
-  height: 87.79px;
-  left: 50px;
-  top: 995px;
-  background: url(instagram-icon-white-on-black);
-}
-
-/* Въпроси и съдържание */
-.question1 {
-  position: absolute;
-  flex-direction: row;
-  display: flex;
-  width: 560px;
-  height: 368px;
-  left: 1000px;
-  top: 900px;
-  font-family: 'Saira Condensed';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 40px;
-  line-height: 20px;
-  color: #FFFFFF;
-}
-
-.question2 {
-  position: absolute;
-  display: flex;
-  width: 475px;
-  height: 175px;
-  left: 300px;
-  top: 1075px;
-  font-family: 'Saira Condensed';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 28px;
-  line-height: 20px;
-  text-transform: uppercase;
-  color: #FFFFFF;
-}
-
-.content {
-  display: flex;
-  justify-content: right;
-  position: sticky;
-  flex-direction: column;
-  width: 400px;
-  height: 200px;
-  left: 1000px;
-  top: 900px;
-  font-family: 'Saira Condensed';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 26px;
-  color: #FFFFFF;
-  text-transform: uppercase;
-}
-
-/* Медиа заявки за responsive дизайн */
-
-/* За мобилни устройства с ширина по-малка от 768px */
-@media (max-width: 767px) {
-  .heading {
-    font-size: 30px;
-    line-height: 30px;
-  }
-  
-  .rect1 {
+.Start{
+    background-color: #303030;
     width: 100%;
-    height: auto;
-  }
-  
-  .rect2 {
-    height: 20vh;
-  }
-  
-  .rect3 {
-    width: 100%;
-    height: 30vh;
-  }
-  
-  .Home, .About, .Locations, .Contacts, .Sign-Up {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding:1rem;
+    font-family: 'Saira Condensed';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 45px;
+    color: #FFFF;
+}
+.heading{
+    position: absolute;
+    width: 746px;
+    height: 111px;
+    left: 600px;
+    top: 10px; 
+    font-family: 'Saira Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 101px;
+    text-align: center;
+    text-transform: uppercase;
+
+color: #FFFFFF;
+}
+.logo{
+    width: 9vw;
+    height: 19vh;
+    display: flex;
+    justify-content: flex-start;
+}
+.Pages{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 150px;
+    
+    position: absolute;
+    width: 826px;
+    height: 56px;
+    left: 570px;
+    top: 150px;
+    color: #FFFFFF;
+}
+.Pages a:hover
+{
+    color:goldenrod;
+    transition: 0.2s;
+}
+.Sign-Up{
+    width:200px;
+}
+.robot-{
+    position: absolute;
+    width: 250px;
+    height: 320px;
+    left: 430px;
+    top: 320px;
+    background: url(robot.jpg);
+}
+.text{
+    position: absolute;
+    width: 560px;
+    height: 368px;
+    left: 1000px;
+    top: 335px;
+    font-family: 'Saira Condensed';
+    font-style: normal;
+    font-weight: 600;
     font-size: 25px;
-    line-height: 30px;
-  }
-  
-  .navbar {
+    line-height: 55px;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.81);
+}
+.rectangle{
+    position: absolute;
+    width: 20px;
+    height: 426px;
+    left: 960px;
+    top: 320px;
+    background-color:#303030;
+}
+.twitter-logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    position: absolute;
+    width: 190px;
+    height: 87.79px;
+    left: 1700px;
+    top: 900px;
+}
+.instagram-logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    position: absolute;
+    width: 190px;
+    height: 87.79px;
+    left: 1800px;
+    top: 900px;
+}
+.bottom{
+    position: absolute;
     width: 100%;
-    justify-content: center;
-  }
-  
-  .logo {
-    width: 200px;
-    height: auto;
-    left: 50%;
-    transform: translateX(-50%);
-  }
-  
-  .image1 {
-    width: 80%;
-    height: auto;
-    left: 10%;
-    top: 550px;
-  }
-  
-  .image2, .image3 {
-    display: none;
-  }
-  
-  .question1, .question2, .content {
-    width: 90%;
-    font-size: 20px;
-    line-height: 25px;
-    left: 5%;
-  }
+    height: 290px;
+    top: 1000px;
+    background-color: #303030;
 }
+.Question{
+    position: absolute;
+    width: 400px;
+    height: 175px;
+    left: 400px;
+    top: 50px;
+    font-family: 'Saira Condensed';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #FFFFFF;
 
-/* За таблети и по-големи устройства с ширина по-голяма от 768px */
-@media (min-width: 768px) {
-  /* Тук добавете специфични стилове за таблети и по-големи екрани, ако е необходимо */
 }
-
-
-
-

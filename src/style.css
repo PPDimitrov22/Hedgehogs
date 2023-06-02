@@ -9,11 +9,11 @@
 }
 .Start{
     background-color: #303030;
-    width: 100%;
     display: flex;
+    width:100%;
     flex-direction: row;
     justify-content: flex-start;
-    padding:1rem;
+    padding: 1rem;
     font-family: 'Saira Condensed';
     font-style: normal;
     font-weight: 600;
@@ -34,8 +34,7 @@
     line-height: 101px;
     text-align: center;
     text-transform: uppercase;
-
-color: #FFFFFF;
+    color: #FFFFFF;
 }
 .logo{
     width: 9vw;
@@ -103,7 +102,7 @@ color: #FFFFFF;
     position: absolute;
     width: 190px;
     height: 87.79px;
-    left: 1700px;
+    left: 1550px;
     top: 900px;
 }
 .instagram-logo{
@@ -114,7 +113,7 @@ color: #FFFFFF;
     position: absolute;
     width: 190px;
     height: 87.79px;
-    left: 1800px;
+    left: 1650px;
     top: 900px;
 }
 .bottom{

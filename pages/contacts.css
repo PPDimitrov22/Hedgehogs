@@ -1,34 +1,343 @@
-body{
-    width: 100%;
-    height: 100%;
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed&display=swap');
+*{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    text-decoration: inherit;
+    color: inherit;
 }
-.cards-section{
+.top{
+    background-color: #303030;
+    display: flex;
+    width:100%;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding:1rem;
+    font-family: 'Saira Condensed';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 45px;
+    color: #FFFF;
+}
+.logo{
+    width: 9vw;
+    height: 19vh;
+    display: flex;
+    justify-content: flex-start;
+}
+.heading{
+    position: absolute;
+    width: 320px;
+    height: 131px;
+    left: 800px;
+    top: 25px;
+    font-family: 'Saira Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 151px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.First-card {
+    position: absolute;
+    width: 250px;
+    height: 353px;
+    left: 110px;
+    top: 350px;
+    background-color: #303030;
+    border-radius: 22px;
+    cursor: pointer;
+  }
+  
+  .front, .back {
+    position: absolute;
     width: 100%;
-    height: 775px;
-    background-color: rgb(39, 39, 39);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 5%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 22px;
+  }
+  
+  .front {
+    background-color: #e1e1e1;
+    transform: rotateY(0deg);
+    transition: transform 0.5s;
+  }
+  
+  .back {
+    color: #FFFFFF;
+    background-color: #f9f9f9;
+    transform: rotateY(-180deg);
+    transition: transform 0.2s;
+  }
+  
+  .First-card:hover .front {
+    transform: rotateY(180deg);
+  }
+  
+  .First-card:hover .back {
+    transform: rotateY(0deg);
+  }
+  
+  .Viktor {
+    position: absolute;
+    width: 200px;
+    height: 247px;
+    left: 24px;
+    top: 53px;
+    border-radius: 22px;
+  }
+  
+  .text-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 18px;
+    opacity: 0;
+    transition: opacity 0.2s;
+    color: #FFFFFF;
+  }
+  
+  .First-card:hover .text-container {
+    opacity: 1;
+  }
+  
+  .First-card:hover .Viktor {
+    opacity: 0;
+  }
+  
+.Second-card {
+    position: absolute;
+    width: 250px;
+    height: 353px;
+    left: 560px;
+    top: 350px;
+    background-color: #303030;
+    border-radius: 22px;
+    cursor: pointer;
+  }
+  
+  .front2, .back2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 22px;
+  }
+  
+  .front2 {
+    transform: rotateY(0deg);
+    transition: transform 0.5s;
+  }
+  
+  .back2 {
+    transform: rotateY(-180deg);
+    transition: transform 0.2s;
+  }
+  
+  .Second-card:hover .front2 {
+    transform: rotateY(180deg);
+  }
+  
+  .Second-card:hover .back2 {
+    transform: rotateY(0deg);
+  }
+  
+  .Nikolai {
+    position: absolute;
+    width: 200px;
+    height: 247px;
+    left: 24px;
+    top: 53px;
+    border-radius: 22px;
+  }
+  
+  .text-container2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 18px;
+    opacity: 0;
+    transition: opacity 0.2s;
+    color: #FFFFFF;
+  }
+  
+  .Second-card:hover .text-container2 {
+    opacity: 1;
+  }
+  
+  .Second-card:hover .Nikolai {
+    opacity: 0;
+  }
+.Third-card {
+    position: absolute;
+    width: 250px;
+    height: 353px;
+    left: 1010px;
+    top: 350px;
+    background-color: #303030;
+    border-radius: 22px;
+    cursor: pointer;
+  }
+  
+  .front3, .back3 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 22px;
+  }
+  
+  .front3 {
+    transform: rotateY(0deg);
+    transition: transform 0.5s;
+  }
+  
+  .back3 {
+    transform: rotateY(-180deg);
+    transition: transform 0.2s;
+  }
+  
+  .Third-card:hover .front3 {
+    transform: rotateY(180deg);
+  }
+  
+  .Third-card:hover .back3 {
+    transform: rotateY(0deg);
+  }
+  
+  .Petyr {
+    position: absolute;
+    width: 200px;
+    height: 247px;
+    left: 24px;
+    top: 53px;
+    border-radius: 22px;
+  }
+  
+  .text-container3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 18px;
+    opacity: 0;
+    transition: opacity 0.2s;
+    color: #FFFFFF;
+  }
+  
+  .Third-card:hover .text-container3 {
+    opacity: 1;
+  }
+  
+  .Third-card:hover .Petyr {
+    opacity: 0;
+  }
+.Fourth-card{
+    position: absolute;
+    width: 250px;
+    height: 353px;
+    left: 1460px;
+    top: 350px;
+    background-color: #303030;
+    border-radius: 22px;
 }
-.card{
-    width: 222px;
-    height: 318px;
-    background-color: rgb(236, 236, 236);
-    color: rgb(35, 35, 35);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    border-radius: 10px;
+.Stefan{
+    position: absolute;
+    width: 200px;
+    height: 247px;
+    left: 24px;
+    top: 53px;
+    border-radius: 22px;
+}.Fourth-card {
+    position: absolute;
+    width: 250px;
+    height: 353px;
+    left: 1460px;
+    top: 350px;
+    background-color: #303030;
+    border-radius: 22px;
+    cursor: pointer;
+  }
+  
+  .front4, .back4 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 22px;
+  }
+  
+  .front4 {
+    transform: rotateY(0deg);
+    transition: transform 0.5s;
+  }
+  
+  .back4 {
+    transform: rotateY(-180deg);
+    transition: transform 0.2s;
+  }
+  
+  .Fourth-card:hover .front4 {
+    transform: rotateY(180deg);
+  }
+  
+  .Fourth-card:hover .back4 {
+    transform: rotateY(0deg);
+  }
+  
+  .Stefan {
+    position: absolute;
+    width: 200px;
+    height: 247px;
+    left: 24px;
+    top: 53px;
+    border-radius: 22px;
+  }
+  
+  .text-container4 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 18px;
+    opacity: 0;
+    transition: opacity 0.2s;
+    color: #FFFFFF;
+  }
+  
+  .Fourth-card:hover .text-container4 {
+    opacity: 1;
+  }
+  
+  .Fourth-card:hover .Stefan {
+    opacity: 0;
+  }
+  .bottom{
+        position: absolute;
+        width: 100%;
+        height: 200px;
+        top: 800px;
+        background-color: #303030;    
 }
-.image-Petyr{
-    width: 150px;
+.question{
+    position: absolute;
+    width: 400px;
     height: 150px;
-    display: flex;
-    align-items: start;
-    justify-content: start;
-    flex-direction: column;
+    left: 400px;
+    top: 40px;
+    font-family: 'Saira Condensed';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #FFFFFF;
 }

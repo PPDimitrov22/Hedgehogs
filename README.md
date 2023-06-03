@@ -26,7 +26,7 @@
  
  ## 🧒 Our Team
  
-- <a href = "https://github.com/PPDimitrov22">Petar Dimitrov </a> (Scrum trainer)
+- -<a href = "https://github.com/PPDimitrov22">Petar Dimitrov </a> (Scrum trainer)
 - - <a href = "https://github.com/SDDimitrov22">Stefan Dimitrov</a> (Designer)
 - - <a href = "https://github.com/VBKanev22">Viktor Kanev</a> (Front-end Developer)
 - - <a href = "https://github.com/NKYanakiev22">Nikolai Yanakiev</a> (Front-end Developer)

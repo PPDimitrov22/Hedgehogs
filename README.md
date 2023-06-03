@@ -23,3 +23,10 @@
  <a href="https://www.microsoft.com/en-ww/microsoft-365/powerpoint"><img src="https://img.icons8.com/color/344/ms-powerpoint.png" alt="MS PowerPoint logo" width=48px /></a>
  <a href="https://www.microsoft.com/en/microsoft-teams/group-chat-software"><img src="https://img.icons8.com/color/344/microsoft-teams.png" alt = "MS Teams logo" width=46px /></a>
  </p>
+ 
+ ## 🧒 Our Team
+ 
+- <a href = "https://github.com/PPDimitrov22">Petar Dimitrov </a> (Scrum trainer)
+- - <a href = "https://github.com/SDDimitrov22">Stefan Dimitrov</a> (Designer)
+- - <a href = "https://github.com/VBKanev22">Viktor Kanev</a> (Front-end Developer)
+- - <a href = "https://github.com/NKYanakiev22">Nikolai Yanakiev</a> (Front-end Developer)

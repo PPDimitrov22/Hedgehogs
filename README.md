@@ -2,10 +2,11 @@
 ## 💻 About
 <p align="center">This is our website about "Robotics", where you will learn about robots </p>
  Used tools for our visual elements:
- 
 <p align="left">
-  
   <a href="https://www.figma.com/"><img src="https://img.icons8.com/color/344/figma--v1.png" alt="Figma logo" width=48px/></a>
+ 
+ 
+ 
    🗂️ Our Tech Stack
   
   Used code editor & collaborative service:

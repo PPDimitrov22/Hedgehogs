@@ -1,4 +1,7 @@
 <h1 align="center">Team Hedgehogs</h1>
+<p align="center">
+    <img src="res/img/pngtree-technological-sense-geometric-line-simple-image_19419.jpg/>
+</p>
 
  💻 About
 <p align="center">This is our website about "Robotics", where you will learn about robots </p>

@@ -1,10 +1,6 @@
 <h1 align="center">Team Hedgehogs</h1>
 
-<p align="center">
-    <img src="res/img/banners/ksd-banner-light.jpg#gh-light-mode-only"/>
-    <img src="res/img/banners/ksd-banner-dark.jpg#gh-dark-mode-only"/>
-</p>
-## 💻 About
+ 💻 About
 <p align="center">This is our website about "Robotics", where you will learn about robots </p>
  Used tools for our visual elements:
 <p align="left">

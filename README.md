@@ -1,6 +1,6 @@
 <h1 align="center">Team Hedgehogs</h1>
 <p align="center">
-    <images src="/img/pngtree-technological-sense-geometric-line-simple-image_19419.jpg"/>
+    <images src="images/pngtree-technological-sense-geometric-line-simple-image_19419.jpg"/>
 </p>
 
  💻 About

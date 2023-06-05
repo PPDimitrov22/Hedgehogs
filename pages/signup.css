@@ -6,6 +6,63 @@
     text-decoration: inherit;
     color: inherit;
 }
+.top{     
+    background-color: #303030;
+    display: flex;
+    width:100%;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 1rem;
+    font-family: 'Saira Condensed';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 45px;
+    color: #FFFF;
+}
+.heading{
+    position: absolute;
+    width: 746px;
+    height: 111px;
+    left: 600px;
+    top: 5px; 
+    font-family: 'Saira Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 101px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.logo{
+    width: 9vw;
+    height: 19vh;
+    display: flex;
+    justify-content: flex-start;
+}
+.Pages{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 150px;
+    
+    position: absolute;
+    width: 826px;
+    height: 56px;
+    left: 570px;
+    top: 150px;
+    color: #FFFFFF;
+}
+.Pages a:hover  /*Effects */
+{
+    color:goldenrod;
+    transition: 0.2s;
+}
+.Sign-Up{
+    width:200px;
+}
 .top{
     background-color: #303030;
     display: flex;
@@ -31,7 +88,7 @@
     width: 320px;
     height: 131px;
     left: 800px;
-    top: 25px;
+    top: 2px;
     font-family: 'Saira Condensed';
     font-style: normal;
     font-weight: 700;
